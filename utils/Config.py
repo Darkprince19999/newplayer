@@ -44,13 +44,13 @@ class Config(metaclass=Singleton):
 
         ## no need to modify these
         if "BOT_URL" not in self.config or not self.config["BOT_URL"]:
-            self.config["BOT_URL"] = "https://t.me/vcplayerbot"
+            self.config["BOT_URL"] = "https://t.me/vc_player_hy_bot"
         if "PARENT_URL" not in self.config or not self.config["PARENT_URL"]:
-            self.config["PARENT_URL"] = "https://t.me/sktechhub"
+            self.config["PARENT_URL"] = "bsbshs.me"
         if "SUPPORT_GROUP" not in self.config or not self.config["SUPPORT_GROUP"]:
-            self.config["SUPPORT_GROUP"] = "https://t.me/voicechatsupport"
+            self.config["SUPPORT_GROUP"] = ""
         if "GITHUB_REPO" not in self.config or not self.config["GITHUB_REPO"]:
-            self.config["GITHUB_REPO"] = "https://github.com/kshubham506/vcplayerbot"
+            self.config["GITHUB_REPO"] = "https://github.com/Darkprince19999/newplayer"
         self.config["SUDO_USER"] = [563365858]
         self.config["PROMOTIONAL_DATA"] = {}
 
