@@ -51,7 +51,7 @@ class Config(metaclass=Singleton):
             self.config["SUPPORT_GROUP"] = ""
         if "GITHUB_REPO" not in self.config or not self.config["GITHUB_REPO"]:
             self.config["GITHUB_REPO"] = "https://github.com/Darkprince19999/newplayer"
-        self.config["SUDO_USER"] = [563365858]
+        self.config["SUDO_USER"] = [1921123015]
         self.config["PROMOTIONAL_DATA"] = {}
 
         """
