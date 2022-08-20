@@ -17,7 +17,7 @@ import uuid
 
 
 @Client.on_message(
-    filters.command(["play", "play@vcplayerbot"]) & ~filters.bot & ~filters.private
+    filters.command(["play", "play@vc_player_hy_bot"]) & ~filters.bot & ~filters.private
 )
 @save_user_chat_in_db
 @is_bot_admin
@@ -68,8 +68,8 @@ async def play(client: Client, message, current_client):
                     "id": uuid.uuid4(),
                     "thumbnails": None,
                     "title": "Streaming URL",
-                    "long_desc": "A SkTechHub Product",
-                    "channel": "SkTechHub",
+                    "long_desc": "Hippo Product",
+                    "channel": "Dark Prince",
                     "duration": None,
                     "views": None,
                     "link": parsed_command["song_url"],
