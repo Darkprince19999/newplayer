@@ -15,7 +15,7 @@ def getMessage(message, action, errorMsg=""):
             send_message = f"**Hi 🎵 {message.chat.first_name if hasattr(message.chat, 'first_name') else 'User'}**"
             send_message = (
                 send_message
-                + f"\n\n**[Voice Chat Music Player]({config.get('BOT_URL')})** is a [SkTechHub Product]({config.get('PARENT_URL')})."
+                + f"\n\n**[Voice Chat Music Player]({config.get('BOT_URL')})** is a [Hippo Product]({config.get('PARENT_URL')})."
             )
             send_message = (
                 send_message
@@ -30,7 +30,7 @@ def getMessage(message, action, errorMsg=""):
             send_message = f"**Thank you for adding [Voice Chat Music Player]({config.get('BOT_URL')})🎵**"
             send_message = (
                 send_message
-                + f"\n\n**[Voice Chat Music Player]({config.get('BOT_URL')})** is a [SkTechHub Product]({config.get('PARENT_URL')})."
+                + f"\n\n**[Voice Chat Music Player]({config.get('BOT_URL')})** is a [Hippo Product]({config.get('PARENT_URL')})."
             )
             send_message = (
                 send_message
@@ -92,7 +92,7 @@ def getMessage(message, action, errorMsg=""):
                     + f"__• Send `help` in the group/channel to view the playback commands.__"
                 )
             send_message = (
-                send_message + f"\n\n**__For any issues contact @voicechatsupport__**"
+                send_message + f"\n\n**__For any issues contact @darkprince__**"
             )
             return send_message, getReplyKeyBoard(message, action)
 
